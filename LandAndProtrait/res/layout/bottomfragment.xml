@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="horizontal" >
+    
+
+    <Button
+        android:id="@+id/subbutton"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button"
+        >
+    </Button>
+    
+    <TextView 
+        android:id="@+id/contenttv"
+        android:layout_toLeftOf="@id/subbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_border"
+        android:text="!!!!!!!!!!!"
+        />
+    
+
+</RelativeLayout>
